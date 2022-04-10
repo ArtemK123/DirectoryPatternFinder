@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFi
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{8C0310F1-557F-4B8B-BA00-D9D949349B56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Test", "Core.Test\Core.Test.csproj", "{A0E0994A-2CD9-4E79-8563-4D20843247EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,13 @@ Global
 		{45885B14-00B7-4C53-B987-5C99BA13BE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45885B14-00B7-4C53-B987-5C99BA13BE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45885B14-00B7-4C53-B987-5C99BA13BE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0310F1-557F-4B8B-BA00-D9D949349B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0310F1-557F-4B8B-BA00-D9D949349B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0310F1-557F-4B8B-BA00-D9D949349B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0310F1-557F-4B8B-BA00-D9D949349B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E0994A-2CD9-4E79-8563-4D20843247EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E0994A-2CD9-4E79-8563-4D20843247EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E0994A-2CD9-4E79-8563-4D20843247EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E0994A-2CD9-4E79-8563-4D20843247EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
