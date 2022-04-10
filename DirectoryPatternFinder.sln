@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{45885B14-00B7-4C53-B987-5C99BA13BE5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{B0AB00D3-3722-4AD7-85F8-9B71E51DE005}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45885B14-00B7-4C53-B987-5C99BA13BE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45885B14-00B7-4C53-B987-5C99BA13BE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45885B14-00B7-4C53-B987-5C99BA13BE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45885B14-00B7-4C53-B987-5C99BA13BE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
