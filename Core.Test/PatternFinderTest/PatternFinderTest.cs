@@ -14,6 +14,14 @@ internal sealed class PatternFinderTest
     }
 
     [Test]
+    public void NonExistingFolder()
+    {
+        var folderPath = BuildAbsolutePath("nonExisting");
+        var exception = Assert.Throws<FolderNotFoundException>(() => patternFinder.Find(folderPath, "anything"));
+        Assert.AreEqual(exception, $"Can not find a folder with path {folderPath}");
+    }
+
+    [Test]
     public void SingleFileWithPattern()
     {
         var folderPath = BuildAbsolutePath("PatternFinderTest\\Resources\\SingleFileWithPattern");
